@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+body {
+    font-family: Muli;
+    font-size: 25px;
+}
+
+.calculator-form {
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    margin-top: 80px;
+    background-color: black;
+}
+
+#calculator-input, #calculator-calculate {
+    font-size: 25px;
+    font-family: Muli;
+}
+
+.calculator-button {
+    font-size: 25px;
+    font-family: Muli;
+    margin-right: 8px;
+    height: 54px;
+    width: 50px;
+    border: none;
+    background-color: lightgrey;
+    box-shadow: -3px 3px darkgrey, -2px 2px darkgrey, -1px 1px darkgrey;
+    
+}
+
+.calculator-buttons {
+    margin: 40px;
+}
+
+#calculator-input {
+    background-color: cadetblue;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Orbitron;
+    font-size: 20px;
+}
